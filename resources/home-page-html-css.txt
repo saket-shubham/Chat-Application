@@ -1,0 +1,27 @@
+/*******************************************************
+********JSX FOR HOME PAGE*******************************
+********************************************************/
+<div className="home-page">
+    <div className="main-content">
+         <!--SIDEBAR LAYOUT-->
+         <!--CHAT AREA LAYOUT-->
+    </div>
+</div>
+
+/*******************************************************
+********CSS FOR HOME PAGE*******************************
+********************************************************/
+.home-page{
+  background-color: #fdedec;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content{
+  display: flex;
+  width: 90%;
+  margin: 10px auto;
+  padding: 10px 10px;
+  flex:1;
+}

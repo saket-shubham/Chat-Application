@@ -1,0 +1,170 @@
+********************************************************************
+***************************HTML FOR SIGNUP**************************
+********************************************************************
+<div className="container">
+        <div className="container-back-img"></div>
+        <div className="container-back-color"></div>
+        <div className="card">
+            <div className="card_title">
+                <h1>Create Account</h1>
+            </div>
+            <div className="form">
+                <form>
+                    <div className="column">
+                        <input type="text" placeholder="First Name" />
+                        <input type="text" placeholder="Last Name" />
+                    </div>
+                    <input type="email" placeholder="Email" />
+                    <input type="password" placeholder="Password" />
+                    <button>Sign Up</button>
+                </form>
+            </div>
+            <div className="card_terms">
+                <span>Already have an account?
+                    <a>Login Here</a>
+                </span>
+            </div>
+        </div>
+    </div>
+
+
+********************************************************************
+***************************CSS FOR SIGNUP***************************
+********************************************************************
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+/*******************************************************
+*************CSS STYLES FOR LOGIN & SIGNUP**************
+********************************************************/
+.container-back-img{
+  background-image: url('./quick-chat-app-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -2;
+}
+.container-back-color{
+  background-color: #e74c3c;
+  opacity: 0.7;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
+.container {
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+  width: 400px;
+  padding: 20px 0px;
+  background-color: #ffffff;
+  padding: 10px 30px;
+}
+.column{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.form .column input{
+  width: calc(100% / 2 - 2px); 
+} 
+
+.card_title {
+  text-align: center;
+  padding: 10px;
+}
+
+.card_title h1 {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.form input {
+  margin-bottom: 5px;
+  width: 100%;
+  background-color: #efefef;
+  border: none;
+  outline: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+}
+
+.form button {
+  background-color: #e74c3c;
+  color: #ffffff;
+  font-size: 16px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  padding: 8px 15px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.card_terms {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.card_terms input[type="checkbox"] {
+  background-color: #e2e2e2;
+}
+
+.card_terms span {
+  margin: 5px;
+  font-size: 13px;
+}
+
+.card a {
+  color: #4796ff;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+
+
+
+
+********************************************************************
+***************************HTML FOR LOGIN***************************
+********************************************************************
+<div className="container">
+        <div className="container-back-img"></div>
+        <div className="container-back-color"></div>
+        <div className="card">
+        <div className="card_title">
+            <h1>Login Here</h1>
+        </div>
+        <div className="form">
+        <form>
+            <input type="email" placeholder="Email"/>
+            <input type="password" placeholder="Password" />
+            <button>Login</button>
+        </form>
+        </div>
+        <div className="card_terms"> 
+            <span>Don't have an account yet?
+                <a>Signup Here</a>
+            </span>
+        </div>
+        </div>
+    </div>

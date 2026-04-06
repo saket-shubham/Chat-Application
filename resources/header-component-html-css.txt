@@ -1,0 +1,64 @@
+/*******************************************************
+********JSX FOR HEADER COMPONENT************************
+********************************************************/
+
+<div className="app-header">
+    <div className="app-logo">
+        <i className="fa fa-comments" aria-hidden="true"></i>
+          Quick Chat
+        </div>
+    <div className="app-user-profile">
+        <div className="logged-user-name">John Smith</div>
+        <div className="logged-user-profile-pic">JS</div>
+    </div>
+</div>
+
+
+
+/*******************************************************
+********CSS FOR HEADER COMPONENT************************
+********************************************************/
+.app-header{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 10px 30px;
+  justify-content: space-between;
+  border-bottom: #bbb 1px solid;
+}
+
+.app-logo{
+  display: flex;
+  flex-wrap: nowrap;
+  color: #28282B;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+i{
+  margin: 5px 10px;
+}
+
+.app-user-profile{
+  display: flex;
+}
+
+.logged-user-name{
+  color: #28282B;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-right: 20px;
+}
+
+.logged-user-profile-pic{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #e74c3c;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+}

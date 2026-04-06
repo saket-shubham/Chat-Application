@@ -1,0 +1,42 @@
+/*******************************************************
+********JSX FOR CHAT AREA COMPONENT*********************
+********************************************************/
+
+<div class="app-chat-area">
+  <div class="app-chat-area-header">
+      <!--RECEIVER DATA-->
+      John Smith
+  </div>
+  <div>
+    <!--Chat Area-->
+    CHAT AREA
+  </div>
+  <div>
+      <!--SEND MESSAGE-->
+      SEND MESSAGE
+  </div>
+</div>
+
+
+/*******************************************************
+*************CSS STYLES FOR CHAT AREA**************
+********************************************************/
+
+.app-chat-area{
+  background-color: white;
+  width: 70%;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+/*******************************************************
+*************CSS STYLES FOR CHAT AREA HEADER************
+********************************************************/
+.app-chat-area-header{
+    padding: 10px 30px;
+    margin-bottom: 20px;
+    border-bottom: #bbb 1px solid;
+    text-align: right;
+    font-weight: bold;
+    color: #e74c3c;
+}

@@ -1,0 +1,37 @@
+/*******************************************************
+***************JSX FOR CHAT MESSAGES********************
+********************************************************/
+
+<!--CHAT AREA-->
+<div class="main-chat-area">
+    <div class="message-container" style="justify-content: end;">
+        <div class="send-message">Hi There</div>
+    </div>
+</div>
+
+
+/*******************************************************
+***************CSS FOR CHAT MESSAGES********************
+********************************************************/
+.message-container{
+    display: flex;
+}
+.send-message, .received-message{
+    padding: 10px 20px;
+    margin-top: 5px;
+    border-radius: 3px;
+    font-size: 14px;
+    width: fit-content;
+}
+
+.send-message{ 
+    background-color: #e74c3c;
+    color: white;
+    margin-left: 100px;
+}
+
+.received-message{ 
+    background-color: #ddd;
+    color: #28282B;
+    margin-right: 100px;
+}

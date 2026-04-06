@@ -1,0 +1,74 @@
+/*******************************************************
+********JSX FOR USER LIST COMPONENT*********************
+********************************************************/
+
+<div class="user-search-filter">
+   <div class="filtered-user">
+       <div class="filter-user-display">
+           <!-- <img src={user.profilePic} alt="Profile Pic" class="user-profile-image"> -->
+           <div class="user-default-profile-pic">
+               MJ
+           </div>
+           <div class="filter-user-details">
+               <div class="user-display-name">Mery Jane</div>
+                   <div class="user-display-email">meryjane@gmail.com</div>
+               </div>
+               <div class="user-start-chat">
+                  <button class="user-start-chat-btn">Start Chat</button>
+               </div>
+           </div>
+       </div>                        
+   </div>
+</div>
+
+
+/*******************************************************
+********CSS FOR USER LIST COMPONENT*********************
+********************************************************/
+.filtered-user{
+  border-bottom: #ccc 1px solid;
+  padding: 10px 10px;
+  color: #28282B;
+  cursor: pointer;
+  background-color: white;
+}
+
+.filter-user-display{
+  display: flex;
+  flex-wrap: wrap;
+}
+.filter-user-details{
+  width: 60%;
+}
+.user-display-name{
+  padding: 1px 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.user-display-email{
+  padding: 1px 20px;
+  font-size: 12px;
+}
+
+.user-default-profile-pic, .user-profile-image{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #e74c3c;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+}
+.user-start-chat{
+  padding: 10px 0px;
+}
+.user-start-chat-btn{
+  padding: 10px 5px;
+  border: none;
+  border-radius: 3px;
+  background-color: #e74c3c;
+  color: white;
+}

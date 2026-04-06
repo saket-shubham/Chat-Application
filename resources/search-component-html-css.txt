@@ -1,0 +1,34 @@
+/*******************************************************
+********JSX FOR SEARCH COMPONENT************************
+********************************************************/
+
+<div className="user-search-area">
+   <input type="text" className="user-search-text" />
+   <i className="fa fa-search user-search-btn" aria-hidden="true"></i>
+</div>
+
+/*******************************************************
+********CSS FOR SEARCH COMPONENT************************
+********************************************************/
+
+.user-search-area{
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.user-search-text{
+  width: 100%;
+  height: 40px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  color: #28282B;
+  border: #ddd 1px solid;
+}
+
+.user-search-btn{
+  position: absolute;
+  right: 10px;
+  font-size: 25px;
+  color: #e74c3c;
+}
